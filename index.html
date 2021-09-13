@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Consumo de Combustível</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<main>
+<h1>Calculadora de Consumo</h1>
+<div>
+    <h2>Instruções</h2>
+    <p>Esta aplicação tem como finalidade demostrar os valores que serão gastos com combustível durante uma viagem, com base no consumo do seu veículo e com a distância percorrida por você!</p>
+
+    <p>Os combustível disponiveis para este cálculo são:</p>
+    <ul>
+        <li><strong>Álcool</strong></li>
+        <li><strong>Diesel</strong></li>
+        <li><strong>Gasolinda</strong></li>
+    </ul>
+</div>
+<div>
+    <h2>Cálculo de valor(R$) do consumo</h2>
+    <form action="calculo.php" method="POST">
+        <div>
+            <label for="km">Distância em Quilômetros a ser percorrida</label>
+            <input type="number" name="km" required>
+        </div>
+        <div>
+            <label for="consumo">Consumo de combustível do veículo(Km/1)</label>
+            <input type="number" name="consumo" required>
+        </div>
+        <div>
+            <button class="botao" type="submit">Calcular</button>
+        </div>
+    </form>
+</div>
+
+</main>
+
+</body>
+</html>
