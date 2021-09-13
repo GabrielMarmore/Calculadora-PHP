@@ -9,8 +9,8 @@
 <p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:</p>
 
 <ul>
-  <li><a href="https://www.php.net/downloads" target="_blank">🔗PHP</a></li>
-  <li><a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">🔗XAMPP</a></li>
+  <li><a href="https://www.php.net/downloads" target="_blank">🔗PHP</a>;</li>
+  <li><a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">🔗XAMPP</a>.</li>
 </ul>
 <p>Escolhei o <strong>XAMPP</strong> por ser familiar, mas o <strong>WampServer</strong> funcionaria igual.</p>
 
